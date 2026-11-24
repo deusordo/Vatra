@@ -45,14 +45,12 @@ h1 { font-size: clamp(3.9rem, 9vw, 8rem); font-weight: 600; letter-spacing: -.05
 .vio h1 { font-weight: 750; }
 .tagline { margin: .55rem 0 .65rem; font: 500 clamp(1.45rem, 3vw, 2.2rem)/1.18 var(--copy); text-wrap: balance; }
 .summary { max-width: 38rem; margin: 0; color: var(--muted); font-size: clamp(.98rem, 1.4vw, 1.125rem); }
-.hero-copy::after { content: ''; display: block; width: 4.5rem; height: .25rem; margin-top: 1.45rem; background: var(--accent); }
 .hero-mark { width: min(100%, 21rem); aspect-ratio: 1; margin-inline: auto; }
 .numind .hero-mark { width: min(100%, 19rem); }
 .focus { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); margin: 0 0 clamp(2rem, 5vw, 4rem); padding: 1.35rem 0; border-block: 1px solid var(--rule); list-style: none; }
 .focus li { padding-inline: clamp(.8rem, 2.5vw, 2rem); }
 .focus li:first-child { padding-inline-start: 0; }
 .focus li + li { border-inline-start: 1px solid var(--rule); }
-.focus h2 { font-size: clamp(1.3rem, 2.5vw, 1.85rem); font-weight: 650; }
 .focus p { margin: .45rem 0 0; color: var(--muted); font-size: .97rem; }
 .site-footer { border-top: 1px solid var(--rule); color: var(--muted); }
 .footer-inner { min-height: 4rem; }
@@ -90,3 +88,22 @@ h1 { font-size: clamp(3.9rem, 9vw, 8rem); font-weight: 600; letter-spacing: -.05
 .theme-toggle svg { width: 1rem; height: 1rem; fill: none; stroke: currentColor; stroke-width: 1.55; stroke-linecap: round; stroke-linejoin: round; }
 .theme-toggle:hover { background: var(--theme-hover); }
 .theme-toggle:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+
+.work-link { display: inline-flex; align-items: center; gap: .45rem; min-height: 2.75rem; font-weight: 650; width: fit-content; text-decoration-color: var(--accent); }
+.work-link svg { width: 1rem; height: 1rem; flex: none; fill: none; stroke: currentColor; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+.work-link:hover { text-decoration-color: currentColor; }
+.hero .work-link { margin-block-start: .55rem; }
+.section-title { margin-block-end: .8rem; font-size: clamp(1.25rem, 2.3vw, 1.55rem); font-weight: 650; }
+.focus { margin-block-end: 0; }
+.focus h3 { margin: 0; font: 650 clamp(1.15rem, 2vw, 1.48rem)/1.2 var(--heading); }
+.project-status { display: grid; grid-template-columns: minmax(0, .32fr) minmax(0, 1fr); gap: 1rem; margin-block: 1.5rem clamp(2rem, 5vw, 4rem); }
+.project-status p { max-width: 43rem; margin: 0; color: var(--muted); }
+.project-status .section-title { margin: .12rem 0 0; }
+@media (max-width: 620px) {
+  .header-inner { gap: .25rem .65rem; }
+  .header-links { gap: .2rem .65rem; }
+  .hero { position: relative; padding-block: 1.8rem 1.65rem; }
+  .hero h1 { padding-inline-end: 4.5rem; font-size: clamp(3rem, 12.2vw, 4.35rem); }
+  .hero-mark, .numind .hero-mark { position: absolute; inset: 1.45rem 0 auto auto; width: clamp(3.8rem, 16vw, 5rem); }
+  .project-status { grid-template-columns: minmax(0, 1fr); gap: .45rem; }
+}
