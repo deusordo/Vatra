@@ -101,6 +101,7 @@ h1 { font-size: clamp(3.9rem, 9vw, 8rem); font-weight: 600; letter-spacing: -.05
 .project-status .section-title { margin: .12rem 0 0; }
 .content-section { border-block-start: 1px solid var(--rule); padding-block-start: 1.4rem; }
 .content-section h3 { margin: 0 0 .55rem; font: 650 1.15rem/1.2 var(--heading); }
+.content-section p + h3 { margin-block-start: 1.15rem; }
 .content-section p + p { margin-top: .75rem; }
 .project-steps { max-width: 42rem; margin: .75rem 0 .3rem; padding-inline-start: 1.5rem; }
 .project-steps li + li { margin-top: .3rem; }
