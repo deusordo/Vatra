@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://deusordo.github.io/Vatra/sitemap.xml
