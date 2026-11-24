@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="285" viewBox="0 0 720 285" role="img" aria-labelledby="title description">
+  <title id="title">Conceptual systems for a small off-grid community</title>
+  <desc id="description">A group of four homes can share power, a verified water supply and storage, and access to a road and internet. Wastewater goes to a separately approved system.</desc>
+  <rect width="720" height="285" rx="14" fill="#f8f4e9"/>
+  <g fill="none" stroke="#645331" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M163 70h83m-83 72h83m-83 72h83M458 90h113m-113 101h113"/>
+    <rect x="18" y="42" width="145" height="55" rx="8"/><rect x="18" y="114" width="145" height="55" rx="8"/><rect x="18" y="186" width="145" height="55" rx="8"/>
+    <rect x="246" y="40" width="212" height="204" rx="8" stroke-dasharray="7 5"/>
+    <path d="M267 92l25-20 25 20v35h-50zm83 0 25-20 25 20v35h-50zm-83 66 25-20 25 20v35h-50zm83 0 25-20 25 20v35h-50z" fill="#e7dbc0"/>
+    <rect x="571" y="62" width="131" height="55" rx="8"/><rect x="571" y="163" width="131" height="55" rx="8"/>
+  </g>
+  <g fill="#2f2b21" font-family="system-ui, sans-serif" font-size="17" text-anchor="middle">
+    <text x="90" y="75">Power &amp; backup</text><text x="90" y="148">Water &amp; storage</text><text x="90" y="219">Road &amp; internet</text>
+    <text x="349" y="223" font-weight="700">Four example homes</text>
+    <text x="636" y="95">Wastewater</text><text x="636" y="196">Shared tools</text>
+  </g>
+</svg>
